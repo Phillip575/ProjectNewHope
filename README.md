@@ -1,3 +1,6 @@
+NEVER PUSH TO THE MAIN BRANCH!!!
+----> SUBMIT PULL REQUEST TO A DIFFERENT BRANCH!
+
 1. Clone the repository
 
 First, copy the repo from GitHub onto your computer:
