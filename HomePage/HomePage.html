@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/HomePage/HomePageStyle.css" type="text/css" />
+    <title>Pantry Rendition 1 Home Page</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="patriotic-lines">
+                <div class="line red"></div>
+                <div class="line white"></div>
+                <div class="line blue"></div>
+            </div>
+            
+            <div class="title-section">
+                <h1>Project New Hope</h1>
+                <div class="subtitle">Serving Those Who Served</div>
+                <div class="starIamage-Box"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Add some content to enable scrolling -->
+    <div style="padding: 2rem; text-align: center; color: #666;">
+        <div style="height: 500px; background: linear-gradient(to bottom, #f9fafb, #e5e7eb); padding: 2rem;">
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            const scrollPosition = window.scrollY;
+            
+            if (scrollPosition > 20) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
