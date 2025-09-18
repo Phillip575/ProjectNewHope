@@ -15,7 +15,7 @@ Never edit directly on main. Always make a new branch for your feature or fix:
 git checkout -b your-branch-name
 
 
-👉 Examples:
+ Examples:
 
 git checkout -b login-page
 
@@ -42,8 +42,7 @@ git push origin your-branch-name
 
 6. Create a Pull Request (PR)
 
-Go to the repo page on GitHub: ProjectNewHope
-.
+Go to the repo page on GitHub: ProjectNewHope.
 
 GitHub will show a button like: “Compare & pull request”. Click it.
 
@@ -53,13 +52,13 @@ Submit the Pull Request.
 
 7. Wait for approval
 
-Phillip (repo owner) reviews the Pull Request.
+(repo owner) reviews the Pull Request.
 
 If changes are good, it gets merged into main.
 
 If changes need updates, Phillip will add comments and you can edit your branch, commit again, and push — the PR will update automatically.
 
-🔒 Rules for main (important)
+**Rules for main (important)**
 
 main is protected.
 
@@ -67,6 +66,6 @@ Nobody pushes directly to main.
 
 All changes must go through Pull Requests.
 
-This keeps the project safe and ensures Phillip approves everything first.
+This keeps the project safe and ensures all changes get approved first.
 
-✅ That’s it! Follow this every time you contribute.
+ That’s it! Follow this every time you contribute.
